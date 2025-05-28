@@ -1,0 +1,32 @@
+.feed-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.feed-content {
+  display: flex;
+  flex: 1;
+  background-color: #e1f5fe;
+  overflow-y: auto;
+  padding: 0;
+  margin: 0;
+  justify-content: center; /* centre l’ensemble */
+}
+
+.sidebar-profile {
+  width: 250px;
+  background-color: #f0f9ff;
+  height: 100vh;
+  padding: 1rem;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.feed-main {
+  width: 80vw; /* prend 80% de la fenêtre */
+  max-width: 1000px;
+  padding: 2rem;
+}

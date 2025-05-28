@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #00b4d8, #0077b6);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.auth-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.auth-card {
+  background: #ffffffdd;
+  color: #333;
+  border-radius: 16px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.auth-card h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  color: #023e8a;
+  margin-bottom: 1rem;
+}
+
+.auth-card input {
+  width: 90%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 1rem;
+}
+
+.auth-card button {
+  width: 100%;
+  background-color: #0096c7;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.auth-card button:hover {
+  background-color: #0077b6;
+}
+
+.toggle {
+  color: #0096c7;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.message {
+  margin-top: 1rem;
+  color: #2a9d8f;
+}
+
+.page-title {
+    position: absolute;
+  top: 30px;
+  font-size: 2.5rem;
+  color: #fff;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 100%;
+}
+
+.logout-button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.logout-button:hover {
+  background-color: #1976d2;
+}
